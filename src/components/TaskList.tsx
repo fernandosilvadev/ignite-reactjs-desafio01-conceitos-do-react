@@ -29,6 +29,7 @@ export function TaskList() {
   
   // adicione no array tasks a nova task.
     setTasks([...tasks, newTask]);
+    setNewTaskTitle('')
   }
 
   function handleToggleTaskCompletion(id: number) {
